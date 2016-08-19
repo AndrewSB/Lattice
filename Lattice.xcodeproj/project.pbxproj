@@ -10,6 +10,7 @@
 		46F155051D67CEF3003DFB40 /* Lattice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F154FA1D67CEF3003DFB40 /* Lattice.framework */; };
 		46F1550A1D67CEF3003DFB40 /* LatticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F155091D67CEF3003DFB40 /* LatticeTests.swift */; };
 		46F155151D67CEFC003DFB40 /* Lattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F155141D67CEFC003DFB40 /* Lattice.swift */; };
+		46F155191D67D0A5003DFB40 /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F155181D67D0A5003DFB40 /* Playground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		46F155091D67CEF3003DFB40 /* LatticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatticeTests.swift; sourceTree = "<group>"; };
 		46F1550B1D67CEF3003DFB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46F155141D67CEFC003DFB40 /* Lattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lattice.swift; sourceTree = "<group>"; };
+		46F155181D67D0A5003DFB40 /* Playground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				46F155141D67CEFC003DFB40 /* Lattice.swift */,
+				46F155181D67D0A5003DFB40 /* Playground.swift */,
 				46F154FF1D67CEF3003DFB40 /* Info.plist */,
 			);
 			name = Sources;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F155191D67D0A5003DFB40 /* Playground.swift in Sources */,
 				46F155151D67CEFC003DFB40 /* Lattice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +386,7 @@
 				46F155101D67CEF3003DFB40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F155111D67CEF3003DFB40 /* Build configuration list for PBXNativeTarget "LatticeTests" */ = {
 			isa = XCConfigurationList;
@@ -390,6 +395,7 @@
 				46F155131D67CEF3003DFB40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
