@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46F154FE1D67CEF3003DFB40 /* Lattice.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F154FD1D67CEF3003DFB40 /* Lattice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46F155051D67CEF3003DFB40 /* Lattice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F154FA1D67CEF3003DFB40 /* Lattice.framework */; };
 		46F1550A1D67CEF3003DFB40 /* LatticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F155091D67CEF3003DFB40 /* LatticeTests.swift */; };
 		46F155151D67CEFC003DFB40 /* Lattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F155141D67CEFC003DFB40 /* Lattice.swift */; };
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		46F154FA1D67CEF3003DFB40 /* Lattice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lattice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F154FD1D67CEF3003DFB40 /* Lattice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lattice.h; sourceTree = "<group>"; };
 		46F154FF1D67CEF3003DFB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46F155041D67CEF3003DFB40 /* LatticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F155091D67CEF3003DFB40 /* LatticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatticeTests.swift; sourceTree = "<group>"; };
@@ -55,7 +53,7 @@
 		46F154F01D67CEF3003DFB40 = {
 			isa = PBXGroup;
 			children = (
-				46F154FC1D67CEF3003DFB40 /* Lattice */,
+				46F154FC1D67CEF3003DFB40 /* Sources */,
 				46F155081D67CEF3003DFB40 /* LatticeTests */,
 				46F154FB1D67CEF3003DFB40 /* Products */,
 			);
@@ -70,13 +68,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46F154FC1D67CEF3003DFB40 /* Lattice */ = {
+		46F154FC1D67CEF3003DFB40 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				46F154FD1D67CEF3003DFB40 /* Lattice.h */,
 				46F155141D67CEFC003DFB40 /* Lattice.swift */,
 				46F154FF1D67CEF3003DFB40 /* Info.plist */,
 			);
+			name = Sources;
 			path = Lattice;
 			sourceTree = "<group>";
 		};
@@ -96,7 +94,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F154FE1D67CEF3003DFB40 /* Lattice.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
